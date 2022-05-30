@@ -11,4 +11,14 @@ public class FormController {
 		return "jsontest";
 	}
 	
+	@GetMapping("/objjson")
+	public String objjson() {
+		return "objjson";
+	}
+	
+	@GetMapping("/objmap")
+	public String objmap() {
+		return "objmap";
+	}
+	
 }
